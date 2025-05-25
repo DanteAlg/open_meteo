@@ -1,4 +1,4 @@
 import Config
 
 config :open_meteo, OpenMeteo.API.WeatherApi.Builder,
-  base: [plug: {Req.Test, WeatherApiMock}]
+  base: [base_url: "/", plug: {Req.Test, WeatherApiMock}]
