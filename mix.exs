@@ -6,7 +6,7 @@ defmodule OpenMeteo.MixProject do
       app: :open_meteo,
       version: "0.1.0",
       elixir: "~> 1.18",
-      elixirc_paths: elixirc_paths(Mix.env),
+      elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
