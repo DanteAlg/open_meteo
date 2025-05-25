@@ -1,6 +1,18 @@
 # OpenMeteo
 
-**TODO: Add description**
+* Elixir 1.18.4-otp-27
+* Erlang 27.0
+
+Test using https://open-meteo.com/ public api
+
+Executing to São Paulo, Belo Horizonte and Curitiba samples using `iex -S mix`:
+
+```elixir
+iex(1)> OpenMeteo.call()
+Belo Horizonte: 25.5C°
+São Paulo: 22.7C°
+Curitiba: 17.5C°
+```
 
 ## Installation
 
