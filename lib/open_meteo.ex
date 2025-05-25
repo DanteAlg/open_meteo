@@ -1,0 +1,2 @@
+defmodule OpenMeteo do
+end
